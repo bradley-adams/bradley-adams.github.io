@@ -1,1 +1,0 @@
-# bradley-adams.github.io
