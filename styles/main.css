@@ -14,3 +14,7 @@ h1{
 body {
   background-color: lightgray;
 }
+.wireframe {
+  max-width: 100%;
+  box-sizing: border-box;
+}
