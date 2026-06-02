@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const ROLES = ["Senior Software Engineer", "Technical Lead", "Go & React Developer"];
-
 const JOBS = [
   {
     company: "Starboard Maritime Intelligence",
@@ -37,23 +35,10 @@ const JOBS = [
 const SKILLS = ["Go", "React", "TypeScript", "PostgreSQL", "ClickHouse", "Kubernetes", "Docker", "Terraform", "GCP", "AWS", "gRPC", "REST APIs"];
 
 export default function App() {
-  const [roleIndex, setRoleIndex] = useState(0);
-  const [fade, setFade] = useState(true);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setVisible(true), 100);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false);
-      setTimeout(() => {
-        setRoleIndex((i) => (i + 1) % ROLES.length);
-        setFade(true);
-      }, 400);
-    }, 3000);
-    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -70,9 +55,7 @@ export default function App() {
       <section className="hero">
         <div className="hero__content">
           <h1 className="hero__name">Bradley Adams</h1>
-          <p className={`hero__role ${fade ? "hero__role--visible" : "hero__role--hidden"}`}>
-            {ROLES[roleIndex]}
-          </p>
+          <p className="hero__role">Senior Software Engineer → Engineering Manager</p>
           <p className="hero__eyebrow">Based in Wellington, NZ</p>
           <p className="hero__bio">
             7+ years building scalable backend systems and modern web applications.
