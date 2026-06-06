@@ -58,10 +58,10 @@ export default function App() {
           <p className="hero__role">Senior Software Engineer → Engineering Manager</p>
           <p className="hero__eyebrow">Based in Wellington, NZ</p>
           <p className="hero__bio">
-            I'm a senior software engineer with 7+ years building scalable backend systems and leading teams across Go, cloud infrastructure, and modern web. My route into tech wasn't conventional — I came via construction project management and business, which shaped how I think. Practical, delivery-focused, and comfortable with ambiguity.
+            I'm a software engineer with 7+ years experience. Primarily working in Go building REST APIs and services. Mostly greenfield systems with some existing codebases too. On the frontend I've worked mainly in React and Angular in TypeScript. Postgres has been my main database with some Redis for messaging alongside it. I've supported the services I've built with Terraform, mostly Kubernetes deployments across AWS with some GCP more recently.
           </p>
           <p className="hero__bio">
-            These days I'm as interested in the people side of engineering as the technical side, mentoring developers, growing teams, and helping people do their best work. There's also usually room for a bit of chucklesome humour along the way.
+            My route into tech wasn't conventional, construction project management and business before software. That background shaped how I approach problems, practical, delivery-focused, and comfortable with ambiguity. These days I'm as much focused on the people side of engineering as the technical side. I've been leading and mentoring developers, running 1:1s and helping people grow. Looking to move further into engineering management, ideally with a team that enjoys a dash of chucklesome humour.
           </p>
           <div className="hero__actions">
             <a href="#work" className="btn btn--primary">See my work</a>
