@@ -108,7 +108,7 @@ export default function App() {
       <section className="section" id="contact">
         <h2 className="section__title">Get in touch</h2>
         <p className="contact__text">
-          Open to interesting problems, technical leadership roles, and teams that take their work seriously but not themselves.
+          Open to interesting problems, engineering management roles, and teams that don't take themselves too seriously.
         </p>
         <div className="contact__links">
           <a href="mailto:bradley.wayne.adams@gmail.com" className="contact__link">
