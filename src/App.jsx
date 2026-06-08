@@ -6,7 +6,7 @@ const JOBS = [
     company: "Starboard Maritime Intelligence",
     role: "Senior Software Engineer — Defence & Intelligence",
     period: "Sep 2025 – Present",
-    summary: "Technical lead for the Defence and Intelligence squad. Designed and shipped a customer-facing Go REST API, led a ClickHouse migration from Postgres, and managed a team of 6 interns and associates.",
+    summary: "Technical lead on the Defence and Intelligence squad, currently delivering a customer-facing Go REST API. The role has spanned engineering management of six interns and associates, leading the Voyages project delivering a ClickHouse migration and gRPC service, and implementing a database slicing solution for air-gapped POC deployment.",
     tech: ["Go", "PostgreSQL", "ClickHouse", "GCP", "Kubernetes", "React", "Terraform"],
   },
   {
