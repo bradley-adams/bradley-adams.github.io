@@ -13,7 +13,7 @@ const JOBS = [
     company: "UneeQ",
     role: "Software Developer — Product",
     period: "Jan 2024 – Aug 2025",
-    summary: "Led development of a Go REST API for a next-gen admin platform. Built Angular frontend for configuring digital humans, contributed to Kubernetes deployments and Go backend session services.",
+    summary: "Led development of a greenfield Go REST API and PostgreSQL database for a next-generation admin platform. Built the Angular frontend enabling configuration of digital human experiences. Contributed to Go backend session services and worked across Kubernetes deployments and Helm charts on AWS.",
     tech: ["Go", "Angular", "PostgreSQL", "AWS", "Kubernetes", "Helm", "Redis"],
   },
   {
