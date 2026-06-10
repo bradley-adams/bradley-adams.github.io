@@ -20,7 +20,7 @@ const JOBS = [
     company: "Sailthru by Marigold",
     role: "Software Engineer — Personalisation & Data Analytics",
     period: "Aug 2022 – Dec 2023",
-    summary: "Worked across a reporting platform from data lake to React frontend. Migrated Node.js services to Go, debugged distributed pipeline issues, and built React components with Vite and React Testing Library.",
+    summary: "Worked across a full data pipeline from data lake through Redshift, exposed via Java services and a React frontend. Migrated Node.js services to Go, debugged distributed pipeline issues across MongoDB, Kinesis and OpenSearch, and maintained a legacy PHP monolith. Also built and tested React components using Vite and React Testing Library.",
     tech: ["Go", "React", "Java", "AWS", "Redshift", "MongoDB", "Kubernetes"],
   },
   {
