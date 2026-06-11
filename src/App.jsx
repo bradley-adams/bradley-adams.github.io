@@ -27,7 +27,7 @@ const JOBS = [
     company: "Modica Group",
     role: "Software Developer — Reporting & Applications",
     period: "Nov 2018 – Jul 2022",
-    summary: "Led an SFTP reporting project evolving from PHP monolith to Go microservices with a React micro frontend. Developed a Go REST API boilerplate and mentored junior developers.",
+    summary: "Led an SFTP reporting project evolving from a PHP monolith into Go microservices with a React micro frontend. Worked across a broader modernisation effort migrating from CakePHP to Go on the backend and jQuery to React and TypeScript on the frontend. Developed a Go REST API boilerplate used as a foundation for new services, and contributed to mentoring, interviewing and onboarding engineers.",
     tech: ["Go", "React", "TypeScript", "PHP", "AWS", "PostgreSQL", "Docker"],
   },
 ];
