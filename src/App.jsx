@@ -32,7 +32,7 @@ const JOBS = [
   },
 ];
 
-const SKILLS = ["Go", "React", "TypeScript", "PostgreSQL", "ClickHouse", "Kubernetes", "Docker", "Terraform", "GCP", "AWS", "gRPC", "REST APIs"];
+const SKILLS = ["Go", "PHP", "TypeScript", "JavaScript", "React", "Angular", "HTML & CSS", "PostgreSQL", "Redis", "Kubernetes", "Docker", "Terraform", "Helm", "AWS", "GCP"];
 
 export default function App() {
   const [visible, setVisible] = useState(false);
