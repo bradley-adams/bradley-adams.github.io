@@ -111,7 +111,7 @@ export default function App() {
           Open to interesting problems, engineering management roles, and teams that don't take themselves too seriously.
         </p>
         <div className="contact__links">
-          <a href="mailto:bradley.wayne.adams@gmail.com" className="contact__link">
+          <a href="#" className="contact__link" onClick={(e) => { e.preventDefault(); window.location.href = ['mai', 'lto:', 'bradley.wayne.adams', '@', 'gmail.com'].join(''); }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
             bradley.wayne.adams@gmail.com
           </a>
