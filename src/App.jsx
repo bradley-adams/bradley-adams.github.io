@@ -6,8 +6,7 @@ const JOBS = [
     company: "Starboard Maritime Intelligence",
     role: "Senior Software Engineer — Defence & Intelligence",
     period: "Sep 2025 – Present",
-    summary: "Acting technical lead for a squad of six engineers, owning technical design, architecture decisions and delivery planning while staying hands on in the code. Designed and delivered a customer facing Go REST API under a tight timeline and changing requirements. Taking the incident commander role when on call. Mentored two associates and four interns, including running their one on ones.",
-    tech: ["Go", "PostgreSQL", "ClickHouse", "GCP", "Kubernetes", "Terraform", "React"],
+    summary: "Acting technical lead for a squad of six engineers, owning technical design, architecture decisions and delivery planning while staying hands on in the code. Designed and delivered a customer facing Go REST API under a tight timeline and changing requirements. Take part in the on call rotation and run incidents from first response through to clean up. Mentored two associates and four interns, including running their one on ones.",    tech: ["Go", "PostgreSQL", "ClickHouse", "GCP", "Kubernetes", "Terraform", "React"],
   },
   {
     company: "UneeQ",
